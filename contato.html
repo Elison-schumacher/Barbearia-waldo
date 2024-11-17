@@ -13,56 +13,35 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="./img/logo.png" alt="Logo Da Barbearia Alura"></h1>
+            <h1><img src="./img/logo.img.jpg" alt="Logo Da Barbearia Alura" class="logo"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="contato.html">Contato</a></li>
-                    <li><a href="teste.html">teste</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main-contato">
         <form action="https://formsubmit.co/elisonschumacher30@gmail.com" method="POST">
-            
-        <label for="nomesobrenome">Nome e Sobrenome</label>
-        <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-    
-        <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+          
 
-        <label for="mensagem">Mensagem</label>
-        <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input class="input-padrao" placeholder="" type="text" name="nome">
 
-        <fieldset>
-            <legend>Como prefere o nosso contato?</legend>
-            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+            <label for="telefone">Telefone</label>
+            <input class="input-padrao" placeholder="(xx)xxxxx-xxxx" type="tel" name="telefone">
 
-            <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
-                    id="radio-telefone">Telefone</label>
+            <label for="">Mensagem</label>
+            <textarea class="input-padrao" placeholder="" name="info"></textarea>
 
-            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
-                    checked>Whatsapp</label>
+            <button class="button" onclick="sumirFormulario()">Enviar e-mail</button>
+        </form>
 
-        </fieldset>
 
-        <fieldset>
-            <legend>Qual horário prefere ser atendido?</legend>
-            <select name="" id="">
-                <option value="Manhã">Manhã</option>
-                <option value="Tarte">Tarde</option>
-                <option value="">Noite</option>
-            </select>
-        </fieldset>
 
-        <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
-            email?</label>
-        <input type="submit" value="Enviar Formulario" class="enviar">
-
-    </form>
         <table>
             <thead>
                 <tr>
@@ -72,23 +51,49 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Segunda</td>
+                    <td>Segunda-feira</td>
                     <td>8h ~ 20h</td>
                 </tr>
                 <tr>
-                    <td>Quarta</td>
+                    <td>Terça-feira</td>
                     <td>8h ~ 20h</td>
                 </tr>
                 <tr>
-                    <td>Sexta</td>
+                    <td>Quarta-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quinta-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
                     <td>8h ~ 20h</td>
                 </tr>
             </tbody>
         </table>
+
+        <a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon"
+                class="whatsapp-icon" width="24" height="24">
+            Enviar mensagem
+        </a>
+
+        <a href="https://www.instagram.com/tio_waldo_90/" class="instagram-button" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon"
+                class="instagram-icon" width="24" height="24">
+            Visitar Instagram
+        </a>
     </main>
+
+
     <footer>
-        <img src="img/logo-branco.png" alt="Logo Da Barbearia Alura">
-        <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+        <img src="./img/logo.img.jpg" alt="Logo Da Barbearia Alura" class="img">
+        <p class="copyright">&copy; Copyright Barbearia Tio Waldo - 2019</p>
     </footer>
 </body>
 

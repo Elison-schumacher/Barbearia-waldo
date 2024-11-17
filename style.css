@@ -13,6 +13,15 @@ header {
     margin: 0 auto;
     
 }
+.logo{
+    width: 45%;
+    height: 250px;
+}
+.img{
+    width: 25%;
+    height: 300px;
+    
+}
 
 nav {
     position: absolute;
