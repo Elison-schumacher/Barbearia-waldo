@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: #fffdfd;
+    background: #f7f5f5;
     padding: 20px 0;
 }
 
@@ -76,7 +76,7 @@ nav a:hover {
 
 .principal {
     padding: 3em 0;
-    background: #FEFEFE;
+    background: #ddd1d1;
     width: 940px;
     margin: 0 auto;
 }
@@ -389,3 +389,75 @@ instagram-button {
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.satisfacao {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.satisfacao h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.avaliacao {
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.avaliacao p {
+    margin: 5px 0;
+}
+
+.avaliacao blockquote {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
