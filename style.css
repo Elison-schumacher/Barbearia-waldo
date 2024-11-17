@@ -345,3 +345,8 @@ instagram-button {
 .instagram-icon {
     margin-right: 10px;
 }
+.button{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
