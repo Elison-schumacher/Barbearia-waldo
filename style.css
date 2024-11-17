@@ -11,16 +11,28 @@ header {
     position: relative;
     width: 850px;
     margin: 0 auto;
-    
+
 }
-.logo{
+
+.logo {
     width: 45%;
     height: 250px;
 }
-.img{
+
+.img {
     width: 25%;
     height: 300px;
+
+}
+
+.button {
+    background-color: #d7c8f1;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
     
+
+
 }
 
 nav {
@@ -31,7 +43,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px ;
+    margin: 0 0 0 15px;
 }
 
 nav a {
@@ -53,10 +65,12 @@ nav a:hover {
     height: 650px;
 }
 
-.titulo-principal { 
+.titulo-principal {
     text-align: center;
-    font-size: 2em; /* 2x o tamanho base */
-    margin: 0 0 1em;/* margem proporcional a fonte */
+    font-size: 2em;
+    /* 2x o tamanho base */
+    margin: 0 0 1em;
+    /* margem proporcional a fonte */
     clear: left;
 }
 
@@ -87,7 +101,7 @@ nav a:hover {
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE,#888888);
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo {
@@ -166,7 +180,7 @@ nav a:hover {
 
 .produtos li:hover {
     border-color: #C78C19;
-} 
+}
 
 .produtos li:active {
     border-color: #088C19;
@@ -208,14 +222,15 @@ footer {
 .main-contato {
     width: 940px;
     margin: 0 auto;
-} 
+}
 
 
-form{
+form {
     margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -260,13 +275,20 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
+
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .video,
+    .produtos {
         width: auto;
     }
 
@@ -279,7 +301,10 @@ td, th {
         text-align: center;
     }
 
-    .lista-beneficios, .imagem-beneficios, .imagem-produtos, form {
+    .lista-beneficios,
+    .imagem-beneficios,
+    .imagem-produtos,
+    form {
         width: 100%;
     }
 
@@ -303,9 +328,10 @@ td, th {
     }
 
 }
+
 /*estilizar o contato*/
 
-.fale-conosco{
+.fale-conosco {
     width: 940px;
     margin: 0px;
     text-align: center;
@@ -313,6 +339,7 @@ td, th {
     font-weight: bold;
     cursor: pointer;
 }
+
 .whatsapp-button {
     display: inline-flex;
     align-items: center;
@@ -334,6 +361,7 @@ td, th {
 .whatsapp-icon {
     margin-right: 10px;
 }
+
 instagram-button {
     display: inline-flex;
     align-items: center;
@@ -355,7 +383,8 @@ instagram-button {
 .instagram-icon {
     margin-right: 10px;
 }
-.button{
+
+.button {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
