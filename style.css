@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: #BBBBBB;
+    background: #fffdfd;
     padding: 20px 0;
 }
 
@@ -193,7 +193,7 @@ nav a:hover {
 /* css footer e copyright  */
 footer {
     text-align: center;
-    background: url("img/bg.jpg");
+    background-color: #000000;
     padding: 40px 0;
 }
 
